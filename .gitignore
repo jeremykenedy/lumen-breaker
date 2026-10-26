@@ -1,0 +1,8 @@
+build/
+*.jks
+*.keystore
+*.pass
+.DS_Store
+__pycache__/
+*.pyc
+.gradle/
