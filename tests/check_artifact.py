@@ -1,4 +1,4 @@
-"""Verify the prototype's identity and offline Android packaging contract."""
+"""Verify the app's identity and offline Android packaging contract."""
 from pathlib import Path
 import os
 import subprocess
@@ -41,9 +41,9 @@ class PackagingTest(unittest.TestCase):
         self.assertIn('removeFrameCallback', scene)
 
     def test_apk_has_only_local_code_and_no_runtime_permissions(self):
-        apk = ROOT / 'build/lumen-breaker.apk'
+        apk = Path(os.environ.get('LUMEN_TEST_APK', str(ROOT / 'build/lumen-breaker.apk')))
         if not apk.exists():
-            self.skipTest('Build the signed prototype before its artifact check.')
+            self.fail('Build the APK before its artifact check.')
         with ZipFile(apk) as archive:
             self.assertIn('classes.dex', archive.namelist())
             self.assertEqual((ROOT / 'LICENSE').read_bytes(), archive.read('assets/LICENSE.txt'))
@@ -54,7 +54,7 @@ class PackagingTest(unittest.TestCase):
         self.assertNotIn('uses-permission:', permissions)
         badging = subprocess.check_output([str(sdk), 'dump', 'badging', str(apk)], text=True)
         self.assertIn("name='com.jeremykenedy.lumenbreaker'", badging)
-        self.assertIn("versionCode='2'", badging)
+        self.assertIn("versionCode='3'", badging)
 
 
 if __name__ == '__main__':

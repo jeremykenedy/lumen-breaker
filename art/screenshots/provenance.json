@@ -1,0 +1,34 @@
+{
+  "images": [
+    {
+      "file": "art/screenshots/lumen-porcelain-dream-1080.png",
+      "sha256": "bb0f6769ba2c3482eecc655d1c288e204fa90799ef044946e9dd304b16b4f2c4",
+      "device": "Amazon AFTDEC012E / Android11 API30 / physical",
+      "resolution": "1920x1080",
+      "mode": "default normal Dream",
+      "apk_sha256": "6dcf41d5da98e1c552a4ebbe9d3bade40a49b142b346ea6e6ce8f08fdd406277",
+      "captured_utc": "2026-10-26",
+      "source_capture": "dream-start-raw.png"
+    },
+    {
+      "file": "art/screenshots/lumen-iris-trio-1080.png",
+      "sha256": "4af59ec5fa2c34582d75e92f4b9e1b688ef505e5082cb5e809038a1f9acf1622",
+      "device": "Amazon AFTDEC012E / Android11 API30 / physical",
+      "resolution": "1920x1080",
+      "mode": "brisk/iris/terraces/dense/trio/lively/bright/slow",
+      "apk_sha256": "6dcf41d5da98e1c552a4ebbe9d3bade40a49b142b346ea6e6ce8f08fdd406277",
+      "captured_utc": "2026-10-26",
+      "source_capture": "max-raw.png"
+    },
+    {
+      "file": "art/screenshots/lumen-settings-1080.png",
+      "sha256": "501910727d31627fd29d164d34f71511abe67c99b44d377ed44ced7c04f01879",
+      "device": "Amazon AFTDEC012E / Android11 API30 / physical",
+      "resolution": "1920x1080",
+      "mode": "maximum-load settings",
+      "apk_sha256": "6dcf41d5da98e1c552a4ebbe9d3bade40a49b142b346ea6e6ce8f08fdd406277",
+      "captured_utc": "2026-10-26",
+      "source_capture": "physical-max-settings.png"
+    }
+  ]
+}

@@ -11,7 +11,7 @@ if [[ "${1:-}" == "--unsigned" ]]; then UNSIGNED=true; fi
 KEYSTORE="${LUMEN_BREAKER_KEYSTORE:-$HOME/.android/lumen-breaker.jks}"
 KEYPASS="${LUMEN_BREAKER_KEYPASS:-$HOME/.android/lumen-breaker.pass}"
 VERSION_NAME="${VERSION_NAME:-1.0.0}"
-VERSION_CODE="${VERSION_CODE:-2}"
+VERSION_CODE="${VERSION_CODE:-3}"
 
 for tool in javac keytool openssl zip; do
   command -v "$tool" >/dev/null || { echo "Missing required tool: $tool" >&2; exit 1; }
