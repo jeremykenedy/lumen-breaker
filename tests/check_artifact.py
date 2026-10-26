@@ -54,7 +54,7 @@ class PackagingTest(unittest.TestCase):
         self.assertNotIn('uses-permission:', permissions)
         badging = subprocess.check_output([str(sdk), 'dump', 'badging', str(apk)], text=True)
         self.assertIn("name='com.jeremykenedy.lumenbreaker'", badging)
-        self.assertIn("versionCode='1'", badging)
+        self.assertIn("versionCode='2'", badging)
 
 
 if __name__ == '__main__':

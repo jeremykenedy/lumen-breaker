@@ -160,6 +160,7 @@ public final class BreakerSceneView extends View implements Choreographer.FrameC
       shaderMatrix.postTranslate(0, brick.y);
       ceramic[brick.color].setLocalMatrix(shaderMatrix);
       paint.setShader(ceramic[brick.color]);
+      paint.setAlpha(255);
       canvas.drawRoundRect(rect, .002f, .002f, paint);
       paint.setShader(null);
       paint.setStrokeWidth(.00065f);
