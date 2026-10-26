@@ -10,7 +10,7 @@ This is the first public release preparation. Install the signed APK with the gu
 
 ## Breaking changes
 
-No previous public release. The declared minimum is Android6.0/API23 with DreamService support; only the matrix in [verification](verification.md) is actually tested. No timer, permission, account or network configuration migration is required.
+No previous public release. The declared minimum is Android 6.0/API 23 with DreamService support; only the matrix in [verification](verification.md) is actually tested. No timer, permission, account or network configuration migration is required.
 
 ## Major changes
 
@@ -26,6 +26,6 @@ No previous public release. The declared minimum is Android6.0/API23 with DreamS
 
 ## Verification and limits
 
-Runtime code2 passed100% line/branch host gameplay/options coverage and bounded native tests on API34 emulator and physical AFTDEC012E API30 at1920x1080. Three separate clean physical presentation windows each read about60FPS in default, maximum load and the normal Dream. Ordinary five-minute idle activation was observed without changing the delay. Recording frame rates are not clean pacing evidence. Read [the exact observations and limits](verification.md).
+Runtime code 2 passed100% line/branch host gameplay/options coverage and bounded native tests on API 34 emulator and physical AFTDEC012E API 30 at1920x1080. Three separate clean physical presentation windows each read about 60 FPS in default, maximum load and the normal Dream. Ordinary five-minute idle activation was observed without changing the delay. Recording frame rates are not clean pacing evidence. Read [the exact observations and limits](verification.md).
 
-API28 hardware, native4K, sustained thermal behavior and other devices are untested. Final packaging and publication checks remain pending. There is no previous public tag to compare.
+API 28 hardware, native 4K, sustained thermal behavior and other devices are untested. Final packaging and publication checks remain pending. There is no previous public tag to compare.

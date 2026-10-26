@@ -8,7 +8,7 @@
 <p align="center"><a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="Apache License 2.0"></a></p>
 <p align="center"><a href="https://github.com/jeremykenedy"><img src="https://img.shields.io/github/followers/jeremykenedy?label=Follow" alt="Follow on GitHub"></a> <a href="https://github.com/jeremykenedy/lumen-breaker"><img src="https://img.shields.io/badge/GitHub-Star-64748b" alt="Star this repository"></a> <a href="https://github.com/sponsors/jeremykenedy"><img src="https://img.shields.io/badge/Sponsor-ec4899" alt="Sponsor on GitHub"></a></p>
 
-**Private release preparation:** no public release or registered Toolkit entry exists yet. Runtime code2 passed bounded native and physical checks; independent moving review and final packaging checks remain pending.
+**Private release preparation:** no public release or registered Toolkit entry exists yet. Runtime code 2 passed bounded native and physical checks; independent moving review passed for runtime code 2; final code 3 packaging checks remain pending.
 
 ![Porcelain formation in the actual normal idle Dream](art/screenshots/lumen-porcelain-dream-1080.png)
 
@@ -71,11 +71,11 @@ Repeated installation updates. Select another saver before removal. Fire TV UI d
 
 | Target | Tested | Limits |
 | --- | --- | --- |
-| Physical Amazon AFTDEC012E, Android 11/API 30,1920x 1080 | Preview, remote controls, persistence, pause/resume and ordinary five-minute idle Dream | Bounded approximately 60FPS clean samples; no thermal, reboot or other-model claim |
+| Physical Amazon AFTDEC012E, Android 11/API 30,1920x 1080 | Preview, remote controls, persistence, pause/resume and ordinary five-minute idle Dream | Bounded approximately 60 FPS clean samples; no thermal, reboot or other-model claim |
 | Google TV emulator, Android 14/API 34,1920x 1080 | Native controls, persistence, moving Preview and lifecycle | Does not establish vendor idle behavior |
 | Other Fire TV/Android TV/Google TV | Untested | Volunteers needed; report model, OS/API, resolution and results through the repository issue tracker |
 
-The scene uses the actual native View size. Native 4K, API28 hardware and every-device compatibility are unverified. [Measurements and limitations](docs/verification.md).
+The scene uses the actual native View size. Native 4K, API 28 hardware and every-device compatibility are unverified. [Measurements and limitations](docs/verification.md).
 
 ## Documentation
 
