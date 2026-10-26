@@ -5,12 +5,11 @@
 
 <p align="center">An offline autonomous brick-breaker screensaver with ceramic formations, luminous motion and real collisions.</p>
 
-<p align="center"><a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="Apache License 2.0"></a></p>
+<p align="center"><a href="https://github.com/jeremykenedy/lumen-breaker/releases/latest"><img src="https://img.shields.io/github/v/release/jeremykenedy/lumen-breaker" alt="Latest release"></a> <a href="https://github.com/jeremykenedy/lumen-breaker/actions/workflows/ci.yml"><img src="https://github.com/jeremykenedy/lumen-breaker/actions/workflows/ci.yml/badge.svg" alt="Build and coverage"></a> <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="Apache License 2.0"></a></p>
 <p align="center"><a href="https://github.com/jeremykenedy"><img src="https://img.shields.io/github/followers/jeremykenedy?label=Follow" alt="Follow on GitHub"></a> <a href="https://github.com/jeremykenedy/lumen-breaker"><img src="https://img.shields.io/badge/GitHub-Star-64748b" alt="Star this repository"></a> <a href="https://github.com/sponsors/jeremykenedy"><img src="https://img.shields.io/badge/Sponsor-ec4899" alt="Sponsor on GitHub"></a></p>
 
-**Private release preparation:** no public release or registered Toolkit entry exists yet. Runtime code 2 passed bounded native and physical checks; independent moving review passed for runtime code 2; final code 3 packaging checks remain pending.
 
-![Porcelain formation in the actual normal idle Dream](art/screenshots/lumen-porcelain-dream-1080.png)
+![Lumen Breaker running at 1920x1080 with porcelain ceramic bricks and a moving ball](art/screenshots/lumen-preview-code3-api34.png)
 
 ## Table of contents
 
@@ -38,10 +37,12 @@ Android 6.0/API 23 or later with DreamService support, a TV remote and permissio
 
 ## Install
 
-The public APK is not yet available. For private validation with the reviewed local signed build:
+[Download the signed APK](https://github.com/jeremykenedy/lumen-breaker/releases/latest/download/lumen-breaker.apk), or use the guided installer:
 
 ```sh
-python3 install.py --serial YOUR_TV_IP:5555 --apk build/lumen-breaker.apk
+git clone https://github.com/jeremykenedy/lumen-breaker.git
+cd lumen-breaker
+python3 install.py --serial YOUR_TV_IP:5555
 ```
 
 Open Lumen Breaker from your apps for settings and Preview. Installing does not select it or change TV timers. Select it separately using a supported picker. [Installation, update and removal](docs/installation.md).
@@ -71,8 +72,8 @@ Repeated installation updates. Select another saver before removal. Fire TV UI d
 
 | Target | Tested | Limits |
 | --- | --- | --- |
-| Physical Amazon AFTDEC012E, Android 11/API 30,1920x 1080 | Preview, remote controls, persistence, pause/resume and ordinary five-minute idle Dream | Bounded approximately 60 FPS clean samples; no thermal, reboot or other-model claim |
-| Google TV emulator, Android 14/API 34,1920x 1080 | Native controls, persistence, moving Preview and lifecycle | Does not establish vendor idle behavior |
+| Physical Amazon AFTDEC012E, Android 11/API 30,1920x 1080 | Runtime code 2 Preview, controls, pause/resume and ordinary five-minute idle Dream | Bounded approximately 60 FPS clean samples; no thermal, reboot or other-model claim |
+| Google TV emulator, Android 14/API 34,1920x 1080 | Code 3 signed upgrade, native Preview/settings and app-provided picker thumbnail; code 2 lifecycle/controls | Does not establish vendor idle behavior |
 | Other Fire TV/Android TV/Google TV | Untested | Volunteers needed; report model, OS/API, resolution and results through the repository issue tracker |
 
 The scene uses the actual native View size. Native 4K, API 28 hardware and every-device compatibility are unverified. [Measurements and limitations](docs/verification.md).

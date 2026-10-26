@@ -1,6 +1,6 @@
 # Installation and removal
 
-The public download is not available while this release is being prepared. After publication, use the signed APK and sibling SHA-256 file from the same release, or the repository installer. Do not install an unsigned review artifact over a signed app.
+Use the signed APK and sibling SHA-256 file from the same [release](https://github.com/jeremykenedy/lumen-breaker/releases/latest), or the repository installer. Do not install an unsigned review artifact over a signed app.
 
 ```sh
 python3 install.py --serial YOUR_TV_IP:5555

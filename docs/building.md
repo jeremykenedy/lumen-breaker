@@ -4,7 +4,7 @@ Requirements: a JDK with Java 8 source support, Android SDK platform 36 and buil
 
 ```sh
 bash build.sh --unsigned
-bash test.sh
+LUMEN_TEST_APK=build/lumen-breaker-unsigned.apk bash test.sh
 bash scripts/test-python-coverage.sh
 python3 scripts/check-docs.py
 ```

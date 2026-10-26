@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased: 1.0.0
+## 1.0.0 - 2026-10-26
 
 ### Major changes
 
@@ -15,10 +15,10 @@
 
 ### Upgrade guide
 
-Initial public release preparation; no previous public Lumen release exists. Private builds with the same signing certificate can update in place and retain all nine saved values. Select the Dream separately after install. Removal deletes its local options.
+Initial public release; no previous public Lumen release exists. Private builds with the same signing certificate can update in place and retain all nine saved values. Select the Dream separately after install. Removal deletes its local options.
 
 ### Breaking changes
 
 None from a previous public release. Minimum SDK23 and target SDK36 are declared; see the tested-device matrix rather than assuming every-device support.
 
-Publication, final packaging gate and independent visual review are pending.
+Signed code 3 packaging, independent runtime moving review, browser documentation checks and required CI passed. See the device matrix for platform limits.

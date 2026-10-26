@@ -2,7 +2,10 @@
 
 ## Status
 
-Private release preparation. No published release or owner acceptance is claimed. Runtime code 2 was tested; independent moving review passed for runtime code 2; final production packaging and CI on the release commit remain pending.
+Runtime code 2 passed native and physical checks, including independent moving
+review. Final signed code 3 passed the in-place upgrade, native Preview, settings,
+metadata-thumbnail and strict restoration gate on API 34. This is evidence for
+this release, not owner acceptance or every-device compatibility.
 
 | Device | Platform | Output | Evidence |
 | --- | --- | --- | --- |
@@ -16,7 +19,7 @@ Actual PID memory snapshots: default77,675KiB PSS, max78,909KiB, Dream52,081KiB.
 
 The original 300000ms idle delay was unchanged. Last observed unbound at290.47s, first normal non-test Dream bound at301.00s; no input stamp changed during idle. Dream's separate moving observation lasted54.63s, with a49.55s native recording. Preview recordings lasted24.52s(default) and 14.54s(max). Recording frame rate is not clean application pacing.
 
-All59 preexisting APK hashes, UIDs, runtime grants, scoped appops, provider values,51UI preferences, external bytes/existence and tracked OS/network configuration were restored. Original Aerial selection was restored. Final Main was awake with no Dream, two bound accessibility services and guard present. Lumen2 was retained stopped after final provider reads. Normal live memory counters and IP lifetime passage were qualified rather than written back.
+All59 preexisting APK hashes, UIDs, runtime grants, scoped appops, provider values,51UI preferences, external bytes/existence and tracked OS/network configuration were restored. Original Aerial selection was restored. Final Main was awake with no Dream, two bound accessibility services and guard present. Lumen 2 was retained stopped after final provider reads. Normal live memory counters and IP lifetime passage were qualified rather than written back.
 
 No API 28/ARM32, all-device compatibility, final production package or owner visual acceptance is inferred from this gate. Capture provenance is in [the gallery](screenshots.md).
 
@@ -36,3 +39,26 @@ illustration escape or text clipping. The native screenshot gallery loaded all
 three original 1920x1080 captures. These browser checks validate documentation,
 not native gameplay performance. Final code 3 packaging and screenshots remain
 pending the separate native gate.
+
+## Final signed package gate
+
+The exact 74,551-byte APK SHA-256 is
+`fc0513f85fc8563cd8463546108bbf5ea9c459ab72465c669b126fcc6c14269c`.
+Its installed signing certificate is
+`d3404786108a0b54fab7bedb1119d3851bd688cdea9c4712155a9582852182e4`.
+The code 2-to3 update retained all nine settings and the schema. A settled native
+Preview ran at actual 1920x1080, counters advanced, and Back returned to settings.
+The installed code 3 metadata thumbnail rendered in the UI 69 picker without Select.
+Neither a device capture override nor a bundled host thumbnail was present, so
+the image came from the app's own Dream metadata.
+
+All 34 preexisting APK identities, UIDs, runtime grants/flags, scoped appops,
+providers, UI 14 preferences, external bytes/directories, OS and network state
+were restored apart from the authorized Lumen 2-to3 APK replacement. UI 69 kept
+WRITE_SECURE_SETTINGS denied, its temporary fixture stayed absent, and the older
+card fixtures were preserved. Final state was Google Home awake, Dream null,
+zero bound accessibility services, guard stopped and Lumen 3 retained stopped
+with no PID. The package-only export appop and canonical files were restored
+immediately in finally; no UID appop, permission or timer write occurred.
+No repeated physical performance or five-minute Dream claim is inferred from
+this packaging-only gate.

@@ -29,6 +29,39 @@
       "apk_sha256": "6dcf41d5da98e1c552a4ebbe9d3bade40a49b142b346ea6e6ce8f08fdd406277",
       "captured_utc": "2026-10-26",
       "source_capture": "physical-max-settings.png"
+    },
+    {
+      "file": "art/screenshots/lumen-preview-code3-api34.png",
+      "sha256": "970ffa170c0b34f9cd6345f2bf24c2884e05406a9e6a1f602615104c7ccf5200",
+      "device": "Google TV emulator, Android14/API34",
+      "resolution": "1920x1080",
+      "mode": "Default Preview after40seconds",
+      "apk_sha256": "fc0513f85fc8563cd8463546108bbf5ea9c459ab72465c669b126fcc6c14269c",
+      "version_code": 3,
+      "captured_utc": "2026-10-26",
+      "source_capture": "native-preview-raw.png"
+    },
+    {
+      "file": "art/screenshots/lumen-settings-code3-api34.png",
+      "sha256": "635a9b227601cbf35fac3a208ddb4b2c893c2fa1fb8256ede580fd7961394f84",
+      "device": "Google TV emulator, Android14/API34",
+      "resolution": "1920x1080",
+      "mode": "Default nativeSettings, Previewfocused",
+      "apk_sha256": "fc0513f85fc8563cd8463546108bbf5ea9c459ab72465c669b126fcc6c14269c",
+      "version_code": 3,
+      "captured_utc": "2026-10-26",
+      "source_capture": "native-settings.png"
+    },
+    {
+      "file": "art/screenshots/lumen-thumbnail-code3-ui69.png",
+      "sha256": "830c63ff1abe4d53710c7c4033241e1d6bd5e5ea8cf3ee4681d71a39f9999d62",
+      "device": "Google TV emulator, Android14/API34",
+      "resolution": "1920x1080",
+      "mode": "App-providedthumbnail inUI69picker, selectionunchanged",
+      "apk_sha256": "fc0513f85fc8563cd8463546108bbf5ea9c459ab72465c669b126fcc6c14269c",
+      "version_code": 3,
+      "captured_utc": "2026-10-26",
+      "source_capture": "host-picker-app-preview.png"
     }
   ]
 }
