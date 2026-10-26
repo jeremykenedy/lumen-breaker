@@ -1,0 +1,67 @@
+{
+  "images": [
+    {
+      "file": "art/screenshots/lumen-porcelain-dream-1080.png",
+      "sha256": "bb0f6769ba2c3482eecc655d1c288e204fa90799ef044946e9dd304b16b4f2c4",
+      "device": "Amazon AFTDEC012E / Android11 API30 / physical",
+      "resolution": "1920x1080",
+      "mode": "default normal Dream",
+      "apk_sha256": "6dcf41d5da98e1c552a4ebbe9d3bade40a49b142b346ea6e6ce8f08fdd406277",
+      "captured_utc": "2026-10-26",
+      "source_capture": "dream-start-raw.png"
+    },
+    {
+      "file": "art/screenshots/lumen-iris-trio-1080.png",
+      "sha256": "4af59ec5fa2c34582d75e92f4b9e1b688ef505e5082cb5e809038a1f9acf1622",
+      "device": "Amazon AFTDEC012E / Android11 API30 / physical",
+      "resolution": "1920x1080",
+      "mode": "brisk/iris/terraces/dense/trio/lively/bright/slow",
+      "apk_sha256": "6dcf41d5da98e1c552a4ebbe9d3bade40a49b142b346ea6e6ce8f08fdd406277",
+      "captured_utc": "2026-10-26",
+      "source_capture": "max-raw.png"
+    },
+    {
+      "file": "art/screenshots/lumen-settings-1080.png",
+      "sha256": "501910727d31627fd29d164d34f71511abe67c99b44d377ed44ced7c04f01879",
+      "device": "Amazon AFTDEC012E / Android11 API30 / physical",
+      "resolution": "1920x1080",
+      "mode": "maximum-load settings",
+      "apk_sha256": "6dcf41d5da98e1c552a4ebbe9d3bade40a49b142b346ea6e6ce8f08fdd406277",
+      "captured_utc": "2026-10-26",
+      "source_capture": "physical-max-settings.png"
+    },
+    {
+      "file": "art/screenshots/lumen-preview-code3-api34.png",
+      "sha256": "970ffa170c0b34f9cd6345f2bf24c2884e05406a9e6a1f602615104c7ccf5200",
+      "device": "Google TV emulator, Android14/API34",
+      "resolution": "1920x1080",
+      "mode": "Default Preview after40seconds",
+      "apk_sha256": "fc0513f85fc8563cd8463546108bbf5ea9c459ab72465c669b126fcc6c14269c",
+      "version_code": 3,
+      "captured_utc": "2026-10-26",
+      "source_capture": "native-preview-raw.png"
+    },
+    {
+      "file": "art/screenshots/lumen-settings-code3-api34.png",
+      "sha256": "635a9b227601cbf35fac3a208ddb4b2c893c2fa1fb8256ede580fd7961394f84",
+      "device": "Google TV emulator, Android14/API34",
+      "resolution": "1920x1080",
+      "mode": "Default nativeSettings, Previewfocused",
+      "apk_sha256": "fc0513f85fc8563cd8463546108bbf5ea9c459ab72465c669b126fcc6c14269c",
+      "version_code": 3,
+      "captured_utc": "2026-10-26",
+      "source_capture": "native-settings.png"
+    },
+    {
+      "file": "art/screenshots/lumen-thumbnail-code3-ui69.png",
+      "sha256": "830c63ff1abe4d53710c7c4033241e1d6bd5e5ea8cf3ee4681d71a39f9999d62",
+      "device": "Google TV emulator, Android14/API34",
+      "resolution": "1920x1080",
+      "mode": "App-providedthumbnail inUI69picker, selectionunchanged",
+      "apk_sha256": "fc0513f85fc8563cd8463546108bbf5ea9c459ab72465c669b126fcc6c14269c",
+      "version_code": 3,
+      "captured_utc": "2026-10-26",
+      "source_capture": "host-picker-app-preview.png"
+    }
+  ]
+}
