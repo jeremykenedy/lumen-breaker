@@ -1,6 +1,6 @@
 # Ecosystem integration
 
-Registration is pending the published signed release. Do not pin a prototype checksum as a public release.
+Catalog registration follows the verified signed app release. Do not pin a private candidate checksum as a public release.
 
 | Field | Contract |
 | --- | --- |

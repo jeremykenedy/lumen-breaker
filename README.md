@@ -57,7 +57,7 @@ cd fire-tv-toolkit
 node setup.js
 ```
 
-Lumen registration is pending its published signed release. After registration, install/select/update/remove use these verified Toolkit command forms:
+Toolkit catalog registration follows the verified signed app release. If the entry is absent, update Toolkit when its integration release is available. After registration, install/select/update/remove use these verified Toolkit command forms:
 
 ```sh
 firetv-screensavers --install=lumen-breaker

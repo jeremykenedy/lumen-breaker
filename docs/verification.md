@@ -37,8 +37,7 @@ loaded; normal versions changed after 1.4 seconds and still versions remained id
 Real-time 8.3-second sampled loops covered the 7-second cycle at desktop and mobile size without
 illustration escape or text clipping. The native screenshot gallery loaded all
 three original 1920x1080 captures. These browser checks validate documentation,
-not native gameplay performance. Final code 3 packaging and screenshots remain
-pending the separate native gate.
+not native gameplay performance. Final code 3 packaging and native captures passed the separate API 34 gate.
 
 ## Final signed package gate
 
